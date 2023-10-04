@@ -69,7 +69,7 @@ html {
   width: 19.645px;
   height: 19.116px;
 }
-a{ text-decoration-line: none;
+a{ text-decoration: none;
   color:white;
 }
 .link-flex > a {
