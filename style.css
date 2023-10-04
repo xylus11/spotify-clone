@@ -21,6 +21,10 @@ html {
   color: var(--white);
   background-color: black;
 }
+a{
+  text-decoration: none;
+  color: white;
+}
 
 .container {
   display: flex;
@@ -68,9 +72,6 @@ html {
 .link-flex > img {
   width: 19.645px;
   height: 19.116px;
-}
-a{ text-decoration: none;
-  color:white;
 }
 .link-flex > a {
   color: #fff;
