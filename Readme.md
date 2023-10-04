@@ -1,3 +1,7 @@
+               SPOTIFY CLONE
+
+
+
 Your Spotify clone will be composed of the following components:
 Header: This includes the Spotify logo, search functionality, and navigation links like 'Home', 'Search', and 'Your Library'.
 Sidebar: This includes navigation links, album covers and titles for playlists, and the 'Get App' CTA.
