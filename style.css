@@ -69,6 +69,9 @@ html {
   width: 19.645px;
   height: 19.116px;
 }
+a{ text-decoration-line: none;
+  color:white;
+}
 .link-flex > a {
   color: #fff;
   font-family: DM Sans;
