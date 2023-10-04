@@ -1,0 +1,490 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=DM+Sans:ital,opsz,wght@1,9..40,200&family=Fasthand&family=Nunito+Sans:opsz,wght@6..12,300&family=Poppins:wght@200;400&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=DM+Sans:ital,opsz,wght@1,9..40,200&family=Fasthand&family=Nunito+Sans:opsz,wght@6..12,300&family=Poppins:wght@200;400&family=Roboto:ital,wght@0,400;1,100&display=swap');
+* {
+  padding: 0px;
+  margin: 0px;
+}
+:root {
+  --black: #000;
+  --grey: #121212;
+  --light-grey: #232323;
+  --white: #fff;
+}
+body,
+html {
+  height: 100%;
+  margin: 0rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  font-family: "Nunito", sans-serif;
+  color: var(--white);
+  background-color: black;
+}
+
+.container {
+  display: flex;
+  flex: 1;
+  background-color: black;
+  overflow: hidden;
+  padding: 5px;
+  margin: 10px;
+}
+.sidebar {
+  flex: 0.25;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  margin-right: 0.5rem;
+  background-color: black;
+  box-sizing: border-box;
+  width: 50%;
+}
+.top-icons {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  background-color: #121212;
+  padding: 5px;
+  border-radius: 10px;
+  width: 100%;
+  margin-top: 10px;
+  overflow: hidden;
+}
+
+.spotify-main-logo {
+  display: flex;
+  margin-left: 10px;
+  flex-direction: column;
+  margin-top: 5px;
+  width: 131px;
+  height: 40px;
+  margin-top: 5px;
+}
+.link-flex {
+  display: flex;
+  flex-direction: flex-start;
+  align-items: center;
+  padding: 10px;
+  border-radius: 6px;
+  opacity: 0.7;
+  
+  gap: 18.41px;
+}
+.link-flex > img {
+  width: 19.645px;
+  height: 19.116px;
+}
+.link-flex > a {
+  color: #fff;
+  font-family: "Nunito", sans-serif;
+  font-size: 15px;
+  text-decoration-line: none;
+
+  font-weight: 700;
+  line-height: normal;
+}
+.link-flex:hover {
+  opacity: 1;
+  background-color: #282828;
+  transition: all 0.3s;
+}
+.mid-icons {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  gap: 14.41px;
+  background-color: #121212;
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+.mid-icons > H5 {
+  margin-left: 10px;
+  color: #b3b3b3;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  text-transform: uppercase;
+}
+.add {
+  display: flex;
+  flex-direction: flex-start;
+  align-items: center;
+  opacity: 0.7;
+  gap: 18.41px;
+}
+.add > img {
+  width: 20.057px;
+  height: 20.057px;
+  background-color: white;
+}
+.add > a {
+  color: white;
+  text-decoration: none;
+  font-family: "Nunito", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  gap: 18.41px;
+}
+.add:hover,
+.favorite:hover,
+.episodes:hover {
+  opacity: 1;
+  transition: all 0.3s;
+  background-color: #282828;
+}
+.favorite {
+  display: flex;
+  flex-direction: flex-start;
+  align-items: center;
+  opacity: 0.7;
+  gap: 18.41px;
+}
+.favorite > img {
+  width: 20.057px;
+  height: 20.057px;
+  background: linear-gradient(
+    135deg,
+    #4000f4 0%,
+    #603aed 22.48%,
+    #7c6ee6 46.93%,
+    #979fe1 65.71%,
+    #a2b3de 77.68%,
+    #adc8dc 88.93%,
+    #c0ecd7 100%
+  );
+}
+.favorite > a {
+  color: white;
+  text-decoration: none;
+  font-family: "Nunito", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+}
+.mid-icons > a {
+  opacity: 0.7;
+  text-decoration: none;
+  font-family: "Nunito", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  padding-left: 10px;
+}
+.mid-icons > a:hover {
+  opacity: 1;
+  color: #16f60a;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+}
+.vertical-line-1 {
+  border-bottom: 1px solid #373737;
+  width: 70%;
+}
+.sidebar-img {
+  width: 100%;
+  margin-top: 20px;
+}
+.main-container {
+  flex: 0.9;
+  width: 80%;
+
+  border-radius: 10px;
+
+  background: linear-gradient(180deg, #90aea7 0%, #000 70%);
+  margin-left: 0px;
+}
+.main-section {
+  display: flex;
+  justify-content: start;
+  margin-top: 25px;
+  align-items: center;
+  margin-left: 0rem;
+}
+.main-section > img {
+  width: 230.97px;
+  height: 230.069px;
+}
+.pop-right {
+  display: flex;
+  flex-direction: column;
+}
+.pop-right > h5 {
+  color: #fff;
+  font-size: 13px;
+  font-weight: 500;
+  opacity: 0.7;
+}
+.pop-right > h1 {
+  color: #fff;
+  font-size: 90px;
+  font-weight: 900;
+}
+.pop-right > p {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 146.9%;
+  opacity: 0.7;
+}
+.spotify {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 146.9%;
+}
+.likes {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+  opacity: 0.7;
+}
+.total-song {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+  opacity: 0.7;
+}
+.autoplay {
+  margin-left: 40px;
+  padding-inline: 10px;
+}
+.title-p {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+.title-p > p {
+  color: #fff;
+  font-family: Circular Std;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.32px;
+  opacity: 0.7;
+}
+.vertical-line-2 {
+  border: 1px solid #fff;
+  opacity: 0.1;
+}
+.song-list {
+  width: 100%;
+  margin-top: 10px;
+  height: 47%;
+  overflow-y: scroll;
+  overflow-x:scroll ;
+  
+}
+.song-list::-webkit-scrollbar{
+  display: none;
+}
+.song-name {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height:15%;
+}
+.song-name:hover{
+  border-radius: 5px;
+background:#232626;
+}
+.div-1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.div-2 {
+  display: flex;
+  flex-direction: column;
+}
+.div-2-p1 {
+  color: #fff;
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18.188px;
+}
+.div-2-p2 {
+  color: #fff;
+  font-family: "Nunito", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+.album-name {
+  color: #fff;
+  font-family: "Nunito", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.album-date {
+  color: #fff;
+  font-family:"Nunito", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  opacity: 0.7;
+}
+.div-3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.div-3 > img {
+  width: 21.369px;
+  height: 24px;
+}
+.div-3 > pre {
+  color: #fff;
+  font-family: "Nunito", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  opacity: 0.7;
+}
+.player {
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #161616;
+}
+.album {
+  display: flex;
+  align-items: center;
+  padding-inline: 10px;
+}
+.p1 {
+  color: #fff;
+  font-family:"Nunito", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-inline: 10px;
+}
+.p2 {
+  color: #b3b3b3;
+  font-family:"Nunito", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-inline: 10px;
+}
+.player-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40vw;
+}
+.player-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.player-timeline {
+  display: flex;
+  align-items: center;
+}
+.timeline-slider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 10px;
+  width: 511px;
+  height: 5px;
+  border-radius: 2.5px;
+  background: #535353;
+}
+.volume-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-inline: 2rem;
+}
+.timeline-slider {
+  margin: 0 10px;
+  width: 40vw;
+}
+.volume-slider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 5px;
+}
+.mute {
+  width: 21.589px;
+  height: 24px;
+}
+.timeline-slider:hover,
+.volume-slider:hover {
+  background-color: #1bd760;
+}
+.timeline-slider,
+.volume-slider {
+  -webkit-appearance: none;
+  color: #1bd760;
+}
+.timeline-slider::-webkit-slider-runnable-track,
+.volume-slider::-webkit-slider-runnable-track {
+  height: 4px;
+  background: white;
+  border: none;
+  border-radius: 100px;
+}
+.timeline-slider::-webkit-slider-thumb,
+.volume-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  border: none;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background: #1bd760;
+  margin-top: -6px;
+}
+.timeline-slider:focus,
+.volume-slider:focus {
+  outline: none;
+  color: white;
+}
+.timeline-slider:focus::-webkit-slider-runnable-track {
+  background: #535353;
+}
+@media screen and (max-width:1100px){
+  .main-container{
+    overflow: scroll;
+  }
+  .main-container::-webkit-scrollbar{
+    display: none;
+  }
+  .main-section{
+    flex-direction: column;
+  }
+  .top-icons{
+    flex-direction: column;
+  }
+  .player-controls,.player-timeline{
+    display: none;
+  }
+  .mid-icons{
+    overflow: scroll;
+  }
+}

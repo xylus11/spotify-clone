@@ -3,15 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Spotify clone</title>
+    <title>Spotify PLaylist</title>
     <link rel="icon" type="image/x-icon" href="assests/logo.png" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="playlist.css" />
   </head>
   <body>
     <div class="container">
       <div class="sidebar">
         <div class="spotify-main-logo">
-          <img src="assests/Spotify logo (1).svg" />
+     <img src="assests/Spotify logo (1).svg" />
         </div>
         <div class="top-icons">
           <div class="link-flex colour">
@@ -28,187 +28,212 @@
           </div>
         </div>
         <div class="mid-icons">
+          <h5>PLAYLISTS</h5>
           <div class="link-flex add">
             <img src="assests/fi-ss-plus-small.svg" alt="Add" />
-            <a href="playlist.html">Create Playlist</a>
+            <a href="#">Create Playlist</a>
           </div>
           <div class="link-flex favorite">
             <img src="assests/fi-ss-heart.svg" alt="Heart" />
             <a href="#">Liked Songs</a>
           </div>
-          <div class="link-flex episodes">
-            <img src="assests/Group.svg" alt="Episodes" />
-            <a href="#">Your Episodes</a>
-          </div>
-          <a href="#">FAV</a>
-          <a href="#">Daily Mix 1</a>
-          <a href="#">Discover Weekly</a>
-          <a href="#">Malayalam</a>
-          <a href="#">Dance / Electronix Mix</a>
-          <a href="#">EDM / Popular</a>
-          <div class="install">
-            <img src="assests/grommet-icons_install-option.svg" />
-            <a href="#">Install App</a>
-          </div>
+          <div class="vertical-line-1"></div>
+          <img class="sidebar-img" src="assests/album art.svg" alt="" />
         </div>
       </div>
-      <div class="main-content">
-        <nav>
-          <div class="arrows">
-            <div class="left__arrow">
+      <div class="main-container">
+        <div class="main-section">
+          <img src="assests/스크린샷 2021-03-16 오후 4.04 2.svg" />
+          <div class="pop-right">
+            <h5>PLAYLIST</h5>
+            <h1>Pop Right Now</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rhoncus
+            </p>
+            <div class="spotify-inline">
+              <span class="spotify">Spotify</span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="20"
-                viewBox="0 0 24 24"
+                width="4"
+                height="4"
+                viewBox="0 0 4 4"
                 fill="none"
               >
-                <path
-                  d="M10.5999 12.7101C10.5061 12.6171 10.4317 12.5065 10.381 12.3846C10.3302 12.2628 10.3041 12.1321 10.3041 12.0001C10.3041 11.868 10.3302 11.7373 10.381 11.6155C10.4317 11.4936 10.5061 11.383 10.5999 11.2901L15.1899 6.71006C15.2836 6.6171 15.358 6.5065 15.4088 6.38464C15.4595 6.26278 15.4857 6.13207 15.4857 6.00006C15.4857 5.86805 15.4595 5.73734 15.4088 5.61548C15.358 5.49362 15.2836 5.38302 15.1899 5.29006C15.0025 5.10381 14.749 4.99927 14.4849 4.99927C14.2207 4.99927 13.9672 5.10381 13.7799 5.29006L9.18986 9.88006C8.62806 10.4426 8.3125 11.2051 8.3125 12.0001C8.3125 12.7951 8.62806 13.5576 9.18986 14.1201L13.7799 18.7101C13.9661 18.8948 14.2175 18.999 14.4799 19.0001C14.6115 19.0008 14.7419 18.9756 14.8638 18.9258C14.9856 18.8761 15.0964 18.8027 15.1899 18.7101C15.2836 18.6171 15.358 18.5065 15.4088 18.3846C15.4595 18.2628 15.4857 18.1321 15.4857 18.0001C15.4857 17.868 15.4595 17.7373 15.4088 17.6155C15.358 17.4936 15.2836 17.383 15.1899 17.2901L10.5999 12.7101Z"
-                  fill="white"
-                />
+                <circle opacity="0.7" cx="2" cy="2" r="2" fill="white" />
               </svg>
-            </div>
-            <div class="right__arrow">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="20"
-                viewBox="0 0 24 24"
-                fill="none"
-              >
-                <path
-                  d="M15.3998 9.88006L10.8098 5.29006C10.6224 5.10381 10.369 4.99927 10.1048 4.99927C9.84062 4.99927 9.58716 5.10381 9.3998 5.29006C9.30607 5.38302 9.23168 5.49362 9.18091 5.61548C9.13014 5.73734 9.104 5.86805 9.104 6.00006C9.104 6.13207 9.13014 6.26278 9.18091 6.38464C9.23168 6.5065 9.30607 6.6171 9.3998 6.71006L13.9998 11.2901C14.0935 11.383 14.1679 11.4936 14.2187 11.6155C14.2695 11.7373 14.2956 11.868 14.2956 12.0001C14.2956 12.1321 14.2695 12.2628 14.2187 12.3846C14.1679 12.5065 14.0935 12.6171 13.9998 12.7101L9.3998 17.2901C9.2115 17.477 9.10518 17.7312 9.10425 17.9965C9.10331 18.2619 9.20783 18.5168 9.3948 18.7051C9.58178 18.8934 9.8359 18.9997 10.1013 19.0006C10.3666 19.0016 10.6215 18.897 10.8098 18.7101L15.3998 14.1201C15.9616 13.5576 16.2772 12.7951 16.2772 12.0001C16.2772 11.2051 15.9616 10.4426 15.3998 9.88006Z"
-                  fill="#7B7B7B"
-                />
-              </svg>
-            </div>
-          </div>
-          <div class="profile">
-            <img src="assests/Ellipse 3.svg" /><a href="#">UserName</a
-            ><svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="21"
-              height="24"
-              viewBox="0 0 21 24"
-              fill="none"
-            >
-              <path
-                d="M4.37524 9H16.6252L11.1189 15.293C10.9548 15.4805 10.7323 15.5858 10.5002 15.5858C10.2682 15.5858 10.0457 15.4805 9.88162 15.293L4.37524 9Z"
-                fill="white"
-              />
-            </svg>
-          </div>
-        </nav>
-        <h1>Good morning</h1>
-        <div class="playlist">
-          <div class="playlist-card">
-            <img width: 99.725px; height: 101px; src="assests/Rectangle 2.jpg"
-            />
-            <div class="discription">
-              <h5>Neffex Playlist</h5>
-            </div>
-          </div>
-          <div class="playlist-card">
-            <img width: 99.725px; height: 101px; src="assests/Rectangle 2.svg">
-            <div class="discription">
-              <h5>K/ DA</h5>
-            </div>
-          </div>
 
-          <div class="playlist-card">
-            <img width: 99.725px; height: 101px; src="assests/Rectangle 3.svg"
-            />
-            <div class="discription">
-              <h5>Dance / Electronic Mix</h5>
-            </div>
-          </div>
-          <div class="playlist-card">
-            <img width: 99.725px; height: 101px; src="assests/Rectangle 2.jpg"
-            />
-            <div class="discription">
-              <h5>Neffex Playlist</h5>
-            </div>
-          </div>
-          <div class="playlist-card">
-            <img width: 99.725px; height: 101px; src="assests/Rectangle 3.svg"
-            />
-            <div class="discription">
-              <h5>Dance / Electronic Mix</h5>
+              <span class="likes">860,305 likes </span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="4"
+                height="4"
+                viewBox="0 0 4 4"
+                fill="none"
+              >
+                <circle opacity="0.7" cx="2" cy="2" r="2" fill="white" />
+              </svg>
+
+              <span class="total-song">100 songs, 5 hr 5 min</span>
             </div>
           </div>
         </div>
-
-        <div id="card-2">
-          <h1>Shows you might like</h1>
-          <a href="#">SEE ALL</a>
+        <div class="autoplay">
+          <img src="assests/thumb_play.svg" />
+          <img src="assests/heart.svg" />
+          <img src="assests/more_big.svg" />
         </div>
-        <div class="cards-container">
-          <div class="card">
-            <img src="assests/Rectangle 16.svg" class="card-img" />
-            <p class="card-name">Weekly Motivatio...</p>
-            <p class="card-description">Ben Ina Scott</p>
+        <div class="title">
+          <div class="title-p">
+            <p># TITLE</p>
+            <p>ALBUM</p>
+            <p>DATE ADDED</p>
+            <p></p>
           </div>
-          <div class="card">
-            <img src="assests/Rectangle 16 (1).svg" class="card-img" />
-            <p class="card-name">MEDITATION SELF</p>
-            <p class="card-description">Ibn Hussain Aleen</p>
+          <div class="vertical-line-2"></div>
+        </div>
+        <div class="song-list">
+          <div class="song-name">
+            <div class="div-1">
+              <img src="assests/Polygon 2.svg" />
+              <img src="assests/Rectangle 9.svg" />
+              <div div-2>
+                <p class="div-2-p1">We’re Good</p>
+                <p class="div-2-p2">Dua Lipa</p>
+              </div>
+            </div>
+            <p class="album-name">Future Nostalgia (The Moonlight Edition)</p>
+            <p class="album-date">4일 전</p>
+            <div class="div-3">
+              <img src="assests/heart-2.svg" />
+              <pre> 2:45 </pre>
+              <img src="assests/more_big.svg" />
+            </div>
           </div>
-          <div class="card">
-            <img src="assests/Rectangle 16 (2).svg" class="card-img" />
-            <p class="card-name">Words beyond act...</p>
-            <p class="card-description">Samuel Scott</p>
+          <div class="song-name">
+            <div class="div-1">
+              <img src="assests/Polygon 2.svg" />
+              <img src="assests/dualipa.svg" />
+              <div div-2>
+                <p class="div-2-p1">We’re Good</p>
+                <p class="div-2-p2">Dua Lipa</p>
+              </div>
+            </div>
+            <p class="album-name">Future Nostalgia (The Moonlight Edition)</p>
+            <p class="album-date">4일 전</p>
+            <div class="div-3">
+              <img src="assests/heart-2.svg" />
+              <pre> 2:45 </pre>
+              <img src="assests/more_big.svg" />
+            </div>
           </div>
-          <div class="card">
-            <img src="assests/Rectangle 16 (3).svg" class="card-img" />
-            <p class="card-name">The Alexa Show</p>
-            <p class="card-description">Adriana Tom</p>
+          <div class="song-name">
+            <div class="div-1">
+              <img src="assests/Polygon 2.svg" />
+              <img src="assests/Rectangle 9.svg" />
+              <div div-2>
+                <p class="div-2-p1">We’re Good</p>
+                <p class="div-2-p2">Dua Lipa</p>
+              </div>
+            </div>
+            <p class="album-name">Future Nostalgia (The Moonlight Edition)</p>
+            <p class="album-date">4일 전</p>
+            <div class="div-3">
+              <img src="assests/heart-2.svg" />
+              <pre> 2:45 </pre>
+              <img src="assests/more_big.svg" />
+            </div>
           </div>
-          <div class="card">
-            <img src="assests/Rectangle 16.svg" class="card-img" />
-            <p class="card-name">Weekly Motivatio...</p>
-            <p class="card-description">Ben Ina Scott</p>
+          <div class="song-name">
+            <div class="div-1">
+              <img src="assests/Polygon 2.svg" />
+              <img src="assests/dualipa.svg" />
+              <div div-2>
+                <p class="div-2-p1">We’re Good</p>
+                <p class="div-2-p2">Dua Lipa</p>
+              </div>
+            </div>
+            <p class="album-name">Future Nostalgia (The Moonlight Edition)</p>
+            <p class="album-date">4일 전</p>
+            <div class="div-3">
+              <img src="assests/heart-2.svg" />
+              <pre> 2:45 </pre>
+              <img src="assests/more_big.svg" />
+            </div>
           </div>
-          <div class="card">
-            <img src="assests/Rectangle 16.svg" class="card-img" />
-            <p class="card-name">Weekly Motivatio...</p>
-            <p class="card-description">Ben Ina Scott</p>
+          <div class="song-name">
+            <div class="div-1">
+              <img src="assests/Polygon 2.svg" />
+              <img src="assests/Rectangle 9.svg" />
+              <div div-2>
+                <p class="div-2-p1">We’re Good</p>
+                <p class="div-2-p2">Dua Lipa</p>
+              </div>
+            </div>
+            <p class="album-name">Future Nostalgia (The Moonlight Edition)</p>
+            <p class="album-date">4일 전</p>
+            <div class="div-3">
+              <img src="assests/heart-2.svg" />
+              <pre> 2:45 </pre>
+              <img src="assests/more_big.svg" />
+            </div>
           </div>
-          <div class="card">
-            <img src="assests/Rectangle 16 (1).svg" class="card-img" />
-            <p class="card-name">MEDITATION SELF</p>
-            <p class="card-description">Ibn Hussain Aleen</p>
+          <div class="song-name">
+            <div class="div-1">
+              <img src="assests/Polygon 2.svg" />
+              <img src="assests/Rectangle 9.svg" />
+              <div div-2>
+                <p class="div-2-p1">We’re Good</p>
+                <p class="div-2-p2">Dua Lipa</p>
+              </div>
+            </div>
+            <p class="album-name">Future Nostalgia (The Moonlight Edition)</p>
+            <p class="album-date">4일 전</p>
+            <div class="div-3">
+              <img src="assests/heart-2.svg" />
+              <pre> 2:45 </pre>
+              <img src="assests/more_big.svg" />
+            </div>
           </div>
-          <div class="card">
-            <img src="assests/Rectangle 16 (2).svg" class="card-img" />
-            <p class="card-name">Words beyond act...</p>
-            <p class="card-description">Samuel Scott</p>
+          <div class="song-name">
+            <div class="div-1">
+              <img src="assests/Polygon 2.svg" />
+              <img src="assests/Rectangle 9.svg" />
+              <div div-2>
+                <p class="div-2-p1">We’re Good</p>
+                <p class="div-2-p2">Dua Lipa</p>
+              </div>
+            </div>
+            <p class="album-name">Future Nostalgia (The Moonlight Edition)</p>
+            <p class="album-date">4일 전</p>
+            <div class="div-3">
+              <img src="assests/heart-2.svg" />
+              <pre> 2:45 </pre>
+              <img src="assests/more_big.svg" />
+            </div>
           </div>
-          <div class="card">
-            <img src="assests/Rectangle 16 (3).svg" class="card-img" />
-            <p class="card-name">The Alexa Show</p>
-            <p class="card-description">Adriana Tom</p>
-          </div>
-          <div class="card">
-            <img src="assests/Rectangle 16.svg" class="card-img" />
-            <p class="card-name">Weekly Motivatio...</p>
-            <p class="card-description">Ben Ina Scott</p>
-          </div>
-          <div class="card">
-            <img src="assests/Rectangle 16 (1).svg" class="card-img" />
-            <p class="card-name">MEDITATION SELF</p>
-            <p class="card-description">Ibn Hussain Aleen</p>
-          </div>
-          <div class="card">
-            <img src="assests/Rectangle 16 (2).svg" class="card-img" />
-            <p class="card-name">Words beyond act...</p>
-            <p class="card-description">Samuel Scott</p>
+          <div class="song-name">
+            <div class="div-1">
+              <img src="assests/Polygon 2.svg" />
+              <img src="assests/dualipa.svg" />
+              <div div-2>
+                <p class="div-2-p1">We’re Good</p>
+                <p class="div-2-p2">Dua Lipa</p>
+              </div>
+            </div>
+            <p class="album-name">Future Nostalgia (The Moonlight Edition)</p>
+            <p class="album-date">4일 전</p>
+            <div class="div-3">
+              <img src="assests/heart-2.svg" />
+              <pre> 2:45 </pre>
+              <img src="assests/more_big.svg" />
+            </div>
           </div>
         </div>
       </div>
       <div class="player">
         <div class="album">
           <img src="assests/Rectangle 20.svg" />
+
           <div>
             <p class="p1">Dreaming On</p>
             <p class="p2">NEFFEX</p>
@@ -305,7 +330,7 @@
         <div class="volume-controls">
           <img src="assests/ph_microphone-stage.svg" />
           <img src="assests/carbon_query-queue.svg" />
-          <img src="assests/carbon_laptop.svg" id="comp"/>
+          <img src="assests/carbon_laptop.svg" />
           <input
             type="range"
             class="volume-slider"
